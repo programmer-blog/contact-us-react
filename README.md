@@ -1,12 +1,56 @@
-# React + Vite
+# React Contact Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React contact page** with a functional form that displays the entered values immediately after submission.  
+This project was created for practice and includes reusable components such as navigation, contact headers, and styled buttons.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Contact Form** with `name`, `email`, and `message` fields.
+- Displays submitted data on the same page without reloading.
+- Modular component structure (`ContactForm`, `ContactHeader`, `Navigation`, `Button`).
+- Basic styling with CSS modules.
+- Icons from [react-icons](https://react-icons.github.io/react-icons/).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/programmer-blog/contact-us-react.git
+   cd react-contact-page
+
+## Install Dependencies
+
+npm install
+
+## Run the development server
+npm run dev
+
+## Open in browser
+
+Visit http://localhost:5173
+
+### Usage
+Fill in your name, email, and message in the form.
+
+Click Submit.
+
+The entered values will be shown below the form instantly.
+
+
+### Technologies Used
+- React
+- Vite (for fast development)
+- React Icons
+- CSS Modules for styling
+
+
+
+
+
+
+
+
